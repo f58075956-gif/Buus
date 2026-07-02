@@ -1,0 +1,17 @@
+{
+  "name": "prometheus-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para ofuscar (Prometheus) y desofuscar/embellecer (lua-format) código Lua, pensado para correr en Termux.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "lua-format": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
